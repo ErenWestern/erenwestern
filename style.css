@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ... other CSS styles for header, stories, feed, posts, etc. */
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-actions i {
+    margin-right: 10px;
+    color: #000;
+}
+
+.post-caption {
+    margin-top: 5px;
+}
